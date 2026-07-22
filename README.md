@@ -1,103 +1,167 @@
-# Satellite Project Successor Tool
+# SkyTrack – Satellite Research Pipeline
 
-Ye final improved Streamlit app hai jo current one-by-one prototype ko replace karne ke liye banaya gaya hai.
+A Streamlit-based pipeline for enriching satellite datasets using structured public sources and producing standardized, research-ready outputs.
 
-## Kya improve hua hai
-
-### Option 1 — Exact sheet columns
-App exact **Data tab** aur **GPT tab** ke required columns generate karta hai.
-
-### Option 2 — Google Sheets integration
-- Google Sheet se input read kar sakta hai
-- direct multiple worksheets me output likh sakta hai
-- overwrite ya append dono modes supported hain
-
-### Option 3 — Official-source enrichment
-Current version me ye live / structured sources use hote hain:
-- **UCS Satellite Database** (uploaded by user; primary source)
-- **CelesTrak SATCAT** live CSV
-- **Wikipedia summary fallback**
-- **Launch vehicle reference layer** for max LEO mass / reusability / approximate launch cost
-
-### Option 4 — Better UI
-- batch processing
-- manual column mapping
-- editable review tables
-- evidence log
-- export workbook with multiple sheets
-- cleaner tabs and workflow
+The application streamlines satellite metadata collection, validation, and export for research workflows by combining multiple data sources into a single interface.
 
 ---
 
-## Files
+## Overview
 
-- `app.py` → main Streamlit app
-- `requirements.txt` → dependencies
-- `launch_vehicle_reference.csv` → launch vehicle reference layer
-- `satellite_app/constants.py` → exact schemas and mappings
-- `satellite_app/helpers.py` → utilities
-- `satellite_app/sources.py` → file reading + UCS/CelesTrak/Wikipedia source logic
-- `satellite_app/scoring.py` → GPT / SDG / Frugal / Numeric heuristics
-- `satellite_app/gsheets.py` → Google Sheets read/write helpers
-- `satellite_app/pipeline.py` → end-to-end batch processor
+SkyTrack supports end-to-end processing of satellite records through:
+
+- Multiple input methods
+- Automated metadata enrichment
+- Batch processing
+- Evidence tracking
+- Google Sheets integration
+- Structured Excel exports
+
+The project is intended to reduce repetitive manual work while keeping researchers in control of final verification.
 
 ---
 
-## Local run
+## Features
+
+### Data Input
+
+- CSV upload
+- Excel upload
+- Manual satellite name entry
+- Google Sheets import
+
+### Data Enrichment
+
+Current enrichment sources include:
+
+- UCS Satellite Database
+- CelesTrak SATCAT
+- Wikipedia (fallback)
+- Launch vehicle reference database
+
+### Processing
+
+- Batch processing
+- Automatic field mapping
+- Confidence scoring
+- Manual review support
+- Evidence logging
+
+### Export
+
+- Research dataset
+- GPT dataset
+- Evidence log
+- Excel workbook
+- Google Sheets export
+
+---
+
+## Project Structure
+
+```
+.
+├── app.py
+├── requirements.txt
+├── launch_vehicle_reference.csv
+├── satellite_app/
+│   ├── constants.py
+│   ├── gsheets.py
+│   ├── helpers.py
+│   ├── pipeline.py
+│   ├── preferred_rag.py
+│   ├── project_audit.py
+│   ├── scoring.py
+│   ├── sources.py
+│   └── websites_catalog.py
+├── sample_satellite_input.csv
+└── .streamlit/
+```
+
+---
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Naman-iitm/SkyTrack-satellite-research-pipeline.git
+cd SkyTrack-satellite-research-pipeline
+```
+
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
+```
+
+Run the application
+
+```bash
 streamlit run app.py
 ```
 
 ---
 
-## Input modes supported
+## Supported Inputs
 
-1. **Upload local CSV / Excel**
-2. **Google Sheet input**
-3. **Manual name paste**
-
----
-
-## Google Sheets setup
-
-### Method 1: Upload credential JSON in the app
-Best for easy usage.
-
-### Method 2: Environment variable
-Set this in deployment:
-
-- `GOOGLE_SERVICE_ACCOUNT_JSON`
-
-Ye full service-account JSON string hona chahiye.
+- CSV
+- Excel (.xlsx)
+- Google Sheets
+- Manual satellite names
 
 ---
 
-## Deploy on Streamlit Cloud
+## Outputs
 
-1. Code GitHub repo me push karo
-2. Streamlit Cloud pe new app create karo
-3. `app.py` ko main file select karo
-4. Agar Google Sheet writing chahiye toh secrets / env me `GOOGLE_SERVICE_ACCOUNT_JSON` add karo
+The application generates:
 
----
-
-## Important notes
-
-- Ye version **workflow successor** hai, not perfect autonomous researcher.
-- Low-confidence rows ko manual official-source verification dena chahiye.
-- Cost-related rows especially manual validation maang sakte hain.
-- Agar UCS database upload karoge toh matching quality kaafi improve hogi.
-- Agar local machine par **CelesTrak SSL error** aaye, updated code CelesTrak ko safer requests-based fallback se load karta hai. Emergency workaround: **Use CelesTrak SATCAT live data** toggle off karke bhi processing run kar sakte ho.
+- Structured research dataset
+- GPT dataset
+- Evidence log
+- Review tables
+- Multi-sheet Excel workbook
 
 ---
 
-## Suggested next upgrades (future)
+## Google Sheets
 
-- more official-space-agency scrapers
-- source snippet highlighting per field
-- cached row history database
-- manual reviewer comments + approval tracking
-- stronger cost parsers
-- direct Google Sheet column sync with existing project tabs
+Authentication is supported through either:
+
+- Uploaded Service Account JSON
+- `GOOGLE_SERVICE_ACCOUNT_JSON` environment variable
+
+---
+
+## Deployment
+
+The project can be deployed directly on Streamlit Cloud.
+
+```bash
+streamlit run app.py
+```
+
+For Google Sheets support, configure the service account credentials as Streamlit Secrets or environment variables.
+
+---
+
+## Notes
+
+- This tool is designed to assist research workflows.
+- Low-confidence records should be manually verified.
+- Matching quality improves significantly when the UCS Satellite Database is provided.
+- Certain fields, such as launch cost estimates, may require additional validation.
+
+---
+
+## License
+
+This project is intended for research and educational purposes.
+
+---
+
+## Author
+
+**Naman Jha**
+
+Research • Data Engineering • AI Applications
