@@ -4,6 +4,9 @@ A Streamlit-based pipeline for enriching satellite datasets using structured pub
 
 The application streamlines satellite metadata collection, validation, and export for research workflows by combining multiple data sources into a single interface.
 
+<img width="1470" height="803" alt="Screenshot 2026-07-22 at 7 40 47 PM" src="https://github.com/user-attachments/assets/088abf3c-383b-4216-ad3e-f155b3cb4059" />
+
+
 ---
 
 ## Overview
@@ -19,6 +22,8 @@ SkyTrack supports end-to-end processing of satellite records through:
 
 The project is intended to reduce repetitive manual work while keeping researchers in control of final verification.
 
+<img width="2282" height="1454" alt="image" src="https://github.com/user-attachments/assets/c3e05e94-c553-4a15-a6fe-e62e0bab30e2" />
+
 ---
 
 ## Features
@@ -29,6 +34,7 @@ The project is intended to reduce repetitive manual work while keeping researche
 - Excel upload
 - Manual satellite name entry
 - Google Sheets import
+<img width="2278" height="1410" alt="image" src="https://github.com/user-attachments/assets/e3889105-de29-4e7a-b470-086f967e1921" />
 
 ### Data Enrichment
 
@@ -38,6 +44,7 @@ Current enrichment sources include:
 - CelesTrak SATCAT
 - Wikipedia (fallback)
 - Launch vehicle reference database
+<img width="2238" height="1142" alt="image" src="https://github.com/user-attachments/assets/161041fd-a4d7-4924-880c-d6c2f910d4c2" />
 
 ### Processing
 
@@ -46,6 +53,7 @@ Current enrichment sources include:
 - Confidence scoring
 - Manual review support
 - Evidence logging
+<img width="2236" height="1130" alt="image" src="https://github.com/user-attachments/assets/0ad819d1-4155-429a-a6db-43a72a739161" />
 
 ### Export
 
@@ -54,6 +62,7 @@ Current enrichment sources include:
 - Evidence log
 - Excel workbook
 - Google Sheets export
+![Uploading image.png…]()
 
 ---
 
