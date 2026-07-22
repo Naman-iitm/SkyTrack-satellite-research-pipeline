@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Streamlit / local secrets
+.streamlit/secrets.toml
+*.env
+.env
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data / generated exports
+*.xlsx
+*.xlsm
+*.tmp
+*.log
+exports/
+
+# Uploaded credentials or private files
+service-account*.json
+credentials*.json
