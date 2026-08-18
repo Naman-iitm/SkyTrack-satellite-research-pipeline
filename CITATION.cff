@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "SkyTrack: Satellite Research & Metadata Enrichment Pipeline"
+message: "If you use SkyTrack in your research, please cite this repository."
+type: software
+authors:
+  - family-names: "Jha"
+    given-names: "Naman"
+repository-code: "https://github.com/Naman-iitm/SkyTrack"
+license: MIT
+version: 1.0.0
+date-released: 2026-08-18
+abstract: >
+  SkyTrack is a research-oriented satellite metadata enrichment pipeline
+  designed to combine heterogeneous public sources into structured,
+  traceable, and research-ready datasets.
+keywords:
+  - satellite
+  - space research
+  - data engineering
+  - metadata enrichment
+  - research pipeline
+  - Python
+  - Streamlit
