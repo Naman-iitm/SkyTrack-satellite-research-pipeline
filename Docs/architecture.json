@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "satellite-project-504507",
+  "private_key_id": ".",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDEdxS9Nz0LYh9K\nQaynmoKws/wNiUZmujc2pd7oNrse0PT1Q4ukeUCUaPNLsft9XRgGj79p96Hiil2a\ntntlK+UDdL6eCRgYiVp0MM1giQ9eQ/9yN+/mmxXIoQQ1O3CT2PQN4sZj2/oGDswk\ny9c33SldC5VDywHWYnzejR4sk4fGFaN74u5u8kNX+Adts6V4iLVwVST4HOogBcQh\n+wygmZq2wUQT6l6ahYy4anok0xWjnXUClQ4ohZENYMljX1TmK1rYkAzyRQHu9m9x\nd1nvag+1oyINv835tgqGo1004+1MvC2RgmnvGqEOjJ7f0HZYkbqYwOmQCsWGpxpm\n8r+dIuvTAgMBAAECggEADq+kIjzV2Fr+Ycuk/2ZibJkXt19Snu0+oVwm3I7yz+vo\n08i30JSryixKO5dTaFykJiFqup4jQM79Dkqj0L1GQkrg0Ol3HqZt14+qWpQETRSi\nLMSXr1Jaf4Phz6Tg1nx6SetwzxgriXZjtkBylx92LxllkArF2WPFV9GOtuBUXu8v\nlDLk3pRU41tsK+3f/1p0ise5/dUxrN3AgTMh/PlqOI3UuXgz2y9CwwXq1dYeHeg8\nH9wXYcbBbDmoQWzKlxb6SVkLRUscGU9EJSogdtjKYBLTpGUOs/4thyc9ty1szQx7\ntcnN8Nq+3o3i4FtVngF0GTHiyaVJH3tyIgTnsyEtEQKBgQDs0vMmYAjcsyWb7cJh\nWmPcxbmAmmW3bHPUghJw03qf9FnzXl7GfxZpDaRz/TS8+RkOfhDeYAcZghNNXEfV\nH6LWjK+HtP0W8iqywRDBghWN/Z+AjaY3u2fC+3qzEbZGoyesp3xZBjsMwbexB4Mu\nicGcghyGmUZAN/f3aRxnRITAeQKBgQDUX4uNPvnxCGeiWYg8efxNLx0yDc6iXlGk\nbnEJvcoAdPVHcbisd3M30qlKdzTK5Tvrm4y+cqGFIbCj8lgIsPlr4EP7lKHhqgED\nk82Bil7yO20mUox948DL475893w+mMqMZWyoapaKWxw8RJB7hemqQZjWyWfvm3hX\nOQp1ZgBzqwKBgHJSv0g2MfEAllY4p45BiVWpKYyYfCPYue3LQMWwgVC4L7gZRV1D\nOnlKOao4gH39Lghd+RywdJzuuwysUIzkscIqtg2n5ElwbAZQxxrzBh6+YYI4XxYm\nZMeuiKPrF/fviRaC37dGF7lnxpoyCzSrEYjREp4zXcNggVaxKiH75K3ZAoGBANBy\nGyH+rwoCKt3xrMNXI+mKFcjcPnWlx9JxyCc8jflW0qxWFWHKOF+RODJrwHho+SAu\n47zF/H0UbTDtm7SkJ5vXWkKjRyScXTRqrOm5q6lr5J0ZpuWlVsWIep5jtyIli6Cz\nqCvBupKADL2mun1TGd7PVblzo71NRpet1/MUs9rTAoGBANJ+VPz0It2pWfRTgQb3\n47oGffS/D+LBwe4hvRHTbNFm74tr6mxICSZF7sCYnQna55Ip0c/TV4ZqQlKzJIL0\n8DOW5rxsE468DTA5TqkrlgpY7L+6OZYDsUMyUBMEOSaVeKOkeSoO5lrPlLLhoxnX\nDMFmdb0PHr4AJMaewKXejm8z\n-----END PRIVATE KEY-----\n",
+  "client_email": "satellite-sheet-bot@satellite-project-504507.iam.gserviceaccount.com",
+  "client_id": "116492841206255568323",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/satellite-sheet-bot%40satellite-project-504507.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -1,0 +1,36 @@
+vehicle_name,max_leo_kg,max_leo_source,reusable_flag,reusability_details,reusability_source,approx_launch_cost_musd,launch_cost_source
+Falcon 9,22800,https://www.spacex.com/vehicles/falcon-9/,1,First stage reusable on many missions,https://www.spacex.com/vehicles/falcon-9/,67,https://www.spacex.com/vehicles/falcon-9/
+Falcon 9 Block 5,22800,https://www.spacex.com/vehicles/falcon-9/,1,First stage reusable on many missions,https://www.spacex.com/vehicles/falcon-9/,67,https://www.spacex.com/vehicles/falcon-9/
+Falcon Heavy,63800,https://www.spacex.com/vehicles/falcon-heavy/,1,Side boosters and center core can be reusable depending on mission,https://www.spacex.com/vehicles/falcon-heavy/,97,https://www.spacex.com/vehicles/falcon-heavy/
+Electron,300,https://www.rocketlabusa.com/launch/electron/,0,Historically expendable though partial recovery has been tested,https://www.rocketlabusa.com/launch/electron/,7.5,https://www.rocketlabusa.com/launch/electron/
+Electron/Curie,300,https://www.rocketlabusa.com/launch/electron/,0,Electron is primarily expendable in standard operations,https://www.rocketlabusa.com/launch/electron/,7.5,https://www.rocketlabusa.com/launch/electron/
+Electron/Photon,300,https://www.rocketlabusa.com/launch/electron/,0,Electron is primarily expendable in standard operations,https://www.rocketlabusa.com/launch/electron/,7.5,https://www.rocketlabusa.com/launch/electron/
+PSLV,3800,https://www.isro.gov.in/PSLV.html,0,No operational vehicle stage reuse,https://www.isro.gov.in/PSLV.html,30,https://nextspaceflight.com/launches/
+PSLV-XL,3800,https://www.isro.gov.in/PSLV.html,0,No operational vehicle stage reuse,https://www.isro.gov.in/PSLV.html,30,https://nextspaceflight.com/launches/
+SSLV,500,https://www.isro.gov.in/SSLV.html,0,No operational vehicle stage reuse,https://www.isro.gov.in/SSLV.html,10,https://nextspaceflight.com/launches/
+GSLV Mk II,2500,https://www.isro.gov.in/GSLV.html,0,No operational vehicle stage reuse,https://www.isro.gov.in/GSLV.html,47,https://nextspaceflight.com/launches/
+LVM3,8000,https://www.isro.gov.in/LVM3.html,0,No operational vehicle stage reuse,https://www.isro.gov.in/LVM3.html,75,https://nextspaceflight.com/launches/
+Ariane 5 ECA,21000,https://www.arianespace.com/vehicle/ariane-5/,0,No operational stage reuse,https://www.arianespace.com/vehicle/ariane-5/,165,https://www.arianespace.com/vehicle/ariane-5/
+Ariane 6,21650,https://www.arianespace.com/vehicle/ariane-6/,0,No operational stage reuse,https://www.arianespace.com/vehicle/ariane-6/,85,https://www.arianespace.com/vehicle/ariane-6/
+Vega,1500,https://www.arianespace.com/vehicle/vega/,0,No operational stage reuse,https://www.arianespace.com/vehicle/vega/,37,https://www.arianespace.com/vehicle/vega/
+Vega C,2300,https://www.arianespace.com/vehicle/vega-c/,0,No operational stage reuse,https://www.arianespace.com/vehicle/vega-c/,42,https://www.arianespace.com/vehicle/vega-c/
+Soyuz 2.1a,8200,https://www.roscosmos.ru/,0,No operational stage reuse,https://www.roscosmos.ru/,50,https://nextspaceflight.com/launches/
+Soyuz 2.1b,8200,https://www.roscosmos.ru/,0,No operational stage reuse,https://www.roscosmos.ru/,50,https://nextspaceflight.com/launches/
+Long March 2D,3500,https://english.spacechina.com/,0,No operational stage reuse,https://english.spacechina.com/,30,https://nextspaceflight.com/launches/
+Long March 3B/E,12000,https://english.spacechina.com/,0,No operational stage reuse,https://english.spacechina.com/,70,https://nextspaceflight.com/launches/
+Long March 4B,4200,https://english.spacechina.com/,0,No operational stage reuse,https://english.spacechina.com/,40,https://nextspaceflight.com/launches/
+Long March 5,25000,https://english.spacechina.com/,0,No operational stage reuse,https://english.spacechina.com/,100,https://nextspaceflight.com/launches/
+Long March 7A,7000,https://english.spacechina.com/,0,No operational stage reuse,https://english.spacechina.com/,70,https://nextspaceflight.com/launches/
+Long March 8,7600,https://english.spacechina.com/,0,No operational stage reuse,https://english.spacechina.com/,50,https://nextspaceflight.com/launches/
+Atlas V 401,9800,https://www.ulalaunch.com/rockets/atlas-v,0,No operational stage reuse,https://www.ulalaunch.com/rockets/atlas-v,109,https://www.ulalaunch.com/rockets/atlas-v
+Delta IV Heavy,28690,https://www.ulalaunch.com/rockets/delta-iv,0,No operational stage reuse,https://www.ulalaunch.com/rockets/delta-iv,350,https://www.ulalaunch.com/rockets/delta-iv
+H-IIA,15000,https://global.jaxa.jp/projects/rockets/h2a/,0,No operational stage reuse,https://global.jaxa.jp/projects/rockets/h2a/,90,https://nextspaceflight.com/launches/
+H3,17000,https://global.jaxa.jp/projects/rockets/h3/,0,No operational stage reuse,https://global.jaxa.jp/projects/rockets/h3/,50,https://global.jaxa.jp/projects/rockets/h3/
+Atlas V,18850,https://www.ulalaunch.com/rockets/atlas-v,0,No operational stage reuse,https://www.ulalaunch.com/rockets/atlas-v,109,https://www.ulalaunch.com/rockets/atlas-v
+GSLV,2500,https://www.isro.gov.in/GSLV.html,0,No operational vehicle stage reuse,https://www.isro.gov.in/GSLV.html,47,https://nextspaceflight.com/launches/
+PSLV C-55,3800,https://www.isro.gov.in/PSLV.html,0,No operational vehicle stage reuse,https://www.isro.gov.in/PSLV.html,30,https://nextspaceflight.com/launches/
+Vikram-1,480,https://www.skyroot.in/vikram-1,0,No operational stage reuse announced for baseline service,https://www.skyroot.in/vikram-1/,3.5,https://www.skyroot.in/vikram-1/
+Starship-Super Heavy,100000,https://www.spacex.com/vehicles/starship/,1,Designed for full reusability,https://www.spacex.com/vehicles/starship/,90,https://www.spacex.com/vehicles/starship/
+Starship-Super Heavy v3,100000,https://www.spacex.com/vehicles/starship/,1,Designed for full reusability,https://www.spacex.com/vehicles/starship/,90,https://www.spacex.com/vehicles/starship/
+Minotaur I,580,https://www.northropgrumman.com/space/minotaur-launch-vehicles,0,No operational stage reuse,https://www.northropgrumman.com/space/minotaur-launch-vehicles,20,https://nextspaceflight.com/launches/
+LauncherOne,500,https://www.virgingalactic.com/launch/,0,Air-launch expendable system,https://www.virgingalactic.com/launch/,12,https://nextspaceflight.com/launches/
